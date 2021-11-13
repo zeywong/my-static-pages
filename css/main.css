@@ -1,0 +1,17 @@
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url('/assets/images/landing.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
