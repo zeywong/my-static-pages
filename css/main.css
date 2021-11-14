@@ -1,17 +1,21 @@
-html {
+html, body {
+    height: 100%;
     max-width: 100%;
+    margin: 0;
     overflow-x: hidden;
 }
 
-body {
-    background-image: url('/assets/images/landing.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+.header {
+    padding: 20px 20px 0 20px;
 }
 
-.menu {
+.header-menu {
+    color: white;
     display: flex;
     justify-content: space-evenly;
+}
+
+.header-menu a {
     color: white;
+    text-decoration: none;
 }

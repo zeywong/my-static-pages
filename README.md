@@ -1,1 +1,1 @@
-# my-static-pages
+# ZW Static Page
