@@ -162,3 +162,14 @@
 .footer-content-menu {
     width: 100%;
 }
+
+.footer-content-menu img {
+    height: 128px;
+    width: 128px;
+    transition: all 0.2s;
+    transform: scale(0.98);
+}
+
+.footer-content-menu img:hover {
+    transform: scale(1);
+}
