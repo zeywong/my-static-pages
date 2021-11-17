@@ -6,7 +6,7 @@
 }
 
 .landing-content {
-    background-image: url('assets/images/blue-sky.jpg');
+    background-image: url('../assets/images/blue-sky.jpg');
 }
 
 .second-content {
@@ -121,31 +121,31 @@
 }
 
 #item1 {
-    background-image: url('assets/images/third-content-1.jpg');
+    background-image: url('../assets/images/third-content-1.jpg');
 }
 
 #item2 {
-    background-image: url('assets/images/third-content-2.jpg');
+    background-image: url('../assets/images/third-content-2.jpg');
 }
 
 #item3 {
-    background-image: url('assets/images/third-content-3.jpg');
+    background-image: url('../assets/images/third-content-3.jpg');
 }
 
 #item4 {
-    background-image: url('assets/images/third-content-4.jpg');
+    background-image: url('../assets/images/third-content-4.jpg');
 }
 
 #item5 {
-    background-image: url('assets/images/third-content-5.jpg');
+    background-image: url('../assets/images/third-content-5.jpg');
 }
 
 #item6 {
-    background-image: url('assets/images/third-content-6.jpg');
+    background-image: url('../assets/images/third-content-6.jpg');
 }
 
 #item7 {
-    background-image: url('assets/images/third-content-7.jpg');
+    background-image: url('../assets/images/third-content-7.jpg');
 }
 
 .footer-content {
