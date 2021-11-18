@@ -2,31 +2,26 @@ function goToInfo() {
     document.location="#";
 }
 
-const slider = document.querySelector('.items');
-let isDown = false;
-let startX;
-let scrollLeft;
-console.log(slider);
+function randomQuote() {
+    var random = Math.floor(Math.random() * 11);
+    var quote = "";
+    switch (random) {
+        case 0: quote = "Zero Dawn"; break;
+        case 1: quote = "Don't give up on dream. Else, you no differences with salted fish."; break;
+        case 2: quote = "Do it now. Sometimes later becomes never."; break;
+        case 3: quote = "Progress of your dream is decided by you."; break;
+        case 4: quote = "I'm the random quote."; break;
+        case 5: quote = "Live your life. Not someone's opinion."; break;
+        case 6: quote = "Try something new. Else, you're not moving forward."; break;
+        case 7: quote = "There is no failure. Either success or experiences."; break;
+        case 8: quote = "When you focus on you. you grow. When you focus on shit, shit grow."; break;
+        case 9: quote = "Pieces by pieces. It'll complete one day."; break;
+        case 10: quote = "Siakap Fish."; break;
+    }
+    alert(quote);
+}
 
-slider.addEventListener('mousedown', (e) => {
-  isDown = true;
-  slider.classList.add('active');
-  startX = e.pageX - slider.offsetLeft;
-  scrollLeft = slider.scrollLeft;
-});
-slider.addEventListener('mouseleave', () => {
-  isDown = false;
-  slider.classList.remove('active');
-});
-slider.addEventListener('mouseup', () => {
-  isDown = false;
-  slider.classList.remove('active');
-});
-slider.addEventListener('mousemove', (e) => {
-  if(!isDown) return;
-  e.preventDefault();
-  const x = e.pageX - slider.offsetLeft;
-  const walk = (x - startX) * 3; //scroll-fast
-  slider.scrollLeft = scrollLeft - walk;
-  console.log(walk);
-});
+function alertComingSoon() {
+    alert("Coming Soon. Stay tuned.");
+}
+
